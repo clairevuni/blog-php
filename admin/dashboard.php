@@ -26,6 +26,7 @@ if(!isset($_SESSION['user_id'])) {
     <ul>
         <li><a href="../index.php">Home</a></li>
         <li><a href="create_post.php">Crea Post</a></li>
+        <li><a href="delete_post.php">Elimina Post</a></li>
         <li><a href="../logout.php">Logout</a></li>
     </ul>
 </nav>

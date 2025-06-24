@@ -1,4 +1,23 @@
-<?php 
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog!</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Benvenuto nel Blog!</h1>
+    <nav>
+        <ul>
+            <li><a href="admin/dashboard.php">Dashboard</a></li>
+            <li><a href="logout.php">Logout</a></li>
+        </ul>
+    </nav>
+
+    <h2>Community</h2>
+
+    <?php 
 
 require_once 'inc/db.php';
 
@@ -28,3 +47,6 @@ if($result->num_rows > 0) {
 
 $conn->close();
 ?>
+
+</body>
+</html>
