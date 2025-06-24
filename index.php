@@ -11,6 +11,9 @@
     <nav>
         <ul>
             <li><a href="admin/dashboard.php">Dashboard</a></li>
+            <li><a href="create_post.php">Crea Post</a></li>
+            <li><a href="admin/delete_post.php">Elimina Post</a></li>
+            <li><a href="admin/edit_post.php">Modifica Post</a></li>
             <li><a href="logout.php">Logout</a></li>
         </ul>
     </nav>
