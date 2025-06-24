@@ -57,7 +57,7 @@
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['username'] = $user['username'];
 
-            header("Location: dashboard.php"); // reindirizza a index.php
+            header("Location: admin/dashboard.php"); // reindirizza a index.php
             exit;
         } else {
             echo "Password errata. Riprova.";
