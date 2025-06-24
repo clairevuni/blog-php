@@ -1,5 +1,16 @@
 
-
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrazione</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Benvenuto nel Blog</h1>
+    </header>
 <form action="register.php" method="POST">
     <h2>Registrati!</h2>
     <label for="username">Username:</label>
@@ -11,6 +22,9 @@
     <button type="submit"> Registrati </button>
 
 </form>
+    <p>Hai già un account? <a href="login.php">Accedi</a></p>
+</body>
+</html>
 
 
 <?php 

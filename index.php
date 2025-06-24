@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog!</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <h1>Benvenuto nel Blog!</h1>
     <nav>
         <ul>
             <li><a href="admin/dashboard.php">Dashboard</a></li>
-            <li><a href="create_post.php">Crea Post</a></li>
+            <li><a href="admin/create_post.php">Crea Post</a></li>
             <li><a href="admin/delete_post.php">Elimina Post</a></li>
             <li><a href="admin/edit_post.php">Modifica Post</a></li>
             <li><a href="logout.php">Logout</a></li>
